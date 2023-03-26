@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Full Stack Book To Do</title>
         <meta name="description" content="Full Stack Book To Do" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <Layout>
         <ToDoList />
