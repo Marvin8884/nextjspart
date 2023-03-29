@@ -12,7 +12,7 @@ export default function ToDoList() {
   useEffect(() => {
     if (didFetchRef.current === false) {
       didFetchRef.current = true
-      fetchTodos()
+      fetchTodos( )
     }
   }, [])
 
